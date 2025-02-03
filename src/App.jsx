@@ -1,4 +1,4 @@
-
+import ColorButton from "./ColorButton.jsx";
 
 const App = () => {
  
@@ -6,6 +6,11 @@ const App = () => {
   return (
     <>
     <h1>Color Picker</h1>
+
+    <ColorButton colorName="purple"/>
+    <ColorButton colorName="green"/>
+    <ColorButton colorName="red"/>
+
     </>
   )
 }
